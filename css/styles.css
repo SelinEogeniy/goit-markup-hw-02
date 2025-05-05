@@ -63,7 +63,8 @@ font-family: "Raleway", sans-serif;
     color: #434455;
 }
 
-.contact .contact-list .contact-item:hover {
+.contact .contact-list .contact-item:hover,
+.contact .contact-list .contact-item:focus {
         color: #404bbf;
 }
 
