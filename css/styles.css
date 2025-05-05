@@ -12,10 +12,6 @@ ul {
     list-style-type: none;
 }
 
-address {
-    font-style: normal;
-}
-
 /* Header */
 /* Logo */
 .logo {
@@ -54,13 +50,17 @@ font-family: "Raleway", sans-serif;
 
  /* Contacts */
 
+ .address {
+     font-style: normal;
+ }
+
 .contact .contact-list .contact-item {
     font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .contact .contact-list .contact-item {
