@@ -48,13 +48,13 @@ font-family: "Raleway", sans-serif;
  }
  
 .menu-list .menu-item .menu-link:hover,
-.menu-link .menu-item .menu-link:focus {
-        color: #404bbf;
- }
+.menu-list .menu-item .menu-link:focus {
+    color: #404bbf
+}
 
  /* Contacts */
 
-.contact .contact-list a {
+.contact .contact-list .contact-item {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -63,7 +63,7 @@ font-family: "Raleway", sans-serif;
         color: #434455;
 }
 
-.contact .contact-list a:hover {
+.contact .contact-list .contact-item {
         color: #404bbf;
 }
 
@@ -129,7 +129,7 @@ font-family: "Raleway", sans-serif;
     background-color: #F4F4FD;
 }
 
-.team-list {
+.team-list .team-item{
     background-color: #FFFFFF;
 }
 
@@ -142,6 +142,7 @@ font-family: "Raleway", sans-serif;
     text-transform: capitalize;
     color: #2e2f42;
 }
+
 
 .team-list .team-name {
     font-weight: 500;
@@ -185,7 +186,7 @@ font-family: "Raleway", sans-serif;
     color: #2e2f42;
 }
 
-.portfolio-text .portfolio-text {
+.portfolio-list .portfolio-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
